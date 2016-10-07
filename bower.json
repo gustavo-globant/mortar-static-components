@@ -1,0 +1,20 @@
+{
+  "name": "mortar-static-components",
+  "description": "UI components extends mortar base style",
+  "main": "gulpfile.js",
+  "license": "ISC",
+  "homepage": "https://github.com/gustavo-globant/mortar-static-components",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "mortar": "https://github.com/natgeo/mortar.git#release/3.0",
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

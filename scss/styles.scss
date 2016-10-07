@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import '_bootstrap.scss';
+@import '../bower_components/mortar/src/styles/mortar-default.scss';
+@import '../components/card-events/default.scss';
+
+
+// ====================
+// ====================
+// Reset
+// ====================
+// ====================
+
+
+body {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+td, th {
+  border: 1px solid $mt3_color-gray-10;
+  padding: .5rem;
+  text-align: left;
+}
+
+// ====================
+// Page Wrapper
+// ====================
+
+.pagewrapper {
+  position: relative;
+
+  @media #{$mt3_mq-lg} {
+    margin: auto;
+    max-width: 80em;
+  }
+}
+
+
+.contentwrapper {
+  position: relative;
+
+  @media #{$mt3_mq-lg} {
+    margin: 0 7em;
+  }
+}
+
+.reset-padding {
+  padding: 0;
+}
+
+.reset-margin {
+  margin: 0;
+}
+
+.ng-events-title {
+  margin: 60px 0 30px;
+  font-size: 38px;
+  text-transform: uppercase;
+  padding-left: 20px;
+
+  .ng-events-see-all {
+    display: block;
+    float: right;
+    font-size: 16px;
+    color: $mt3_color-black;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+}
+
+.btn {
+  font-size: 18px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
